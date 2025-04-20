@@ -47,3 +47,57 @@ Tools:Google Colab
 Library utama: `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
 
 ## Business Dashboard
+
+Link: [Dashboard Tableau](https://public.tableau.com/views/HRAnalyticDashboard_17449921513130/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+![alt text](https://github.com/mfatarsyah/HR-Dashboard/blob/main/fatarsyah_26%20-%20Dashboard.png)
+
+Dashboard ini dirancang untuk memberikan gambaran menyeluruh mengenai tingkat attrition atau keluar-masuk karyawan di perusahaan. Dengan total 1.470 karyawan, tercatat 179 orang mengalami attrition, menghasilkan attrition rate sebesar 12,18%. Ini merupakan indikator penting bagi tim Human Resource dalam mengevaluasi strategi retensi.
+
+Melalui segmentasi usia, terlihat bahwa kelompok usia produktif antara 30 hingga 36 tahun memiliki jumlah karyawan tertinggi sekaligus menyumbang angka attrition yang signifikan. Hal ini mengindikasikan perlunya pendekatan retensi yang lebih adaptif pada kelompok usia tersebut.
+
+Faktor lembur (overtime) juga terbukti berdampak besar terhadap attrition. Sebanyak 98 karyawan yang keluar tercatat rutin melakukan lembur, lebih tinggi dibandingkan dengan yang tidak lembur. Ini menguatkan asumsi bahwa beban kerja yang tinggi dapat mendorong niat resign karyawan.
+
+Analisis berdasarkan Job Role dan Job Satisfaction mengungkap bahwa meskipun mayoritas karyawan berada pada level kepuasan kerja yang cukup tinggi (tingkat 3 dan 4), posisi seperti Sales Executive dan Research Scientist tetap menunjukkan volume attrition yang besar. Maka, peningkatan kepuasan kerja saja tidak cukup tanpa keseimbangan beban kerja dan peluang karier yang jelas.
+
+Pada sisi lain, rata-rata lama bekerja (Years at Company) juga memperlihatkan perbedaan signifikan antar posisi. Misalnya, Research Scientist cenderung bertahan lebih lama dibanding posisi seperti Human Resources atau Sales Representative. Ini bisa dijadikan dasar dalam menyusun kebijakan promosi dan loyalitas karyawan.
+
+Terakhir, visualisasi attrition berdasarkan departemen menunjukkan bahwa departemen Sales menjadi kontributor terbesar terhadap angka attrition, yang perlu mendapat perhatian khusus dari sisi manajerial maupun strategi HR.
+
+Dashboard ini juga dilengkapi fitur filter berdasarkan Education Field, yang memungkinkan analisis lebih spesifik terhadap latar belakang pendidikan karyawan. Dengan filter ini, perusahaan dapat mengevaluasi apakah latar belakang pendidikan tertentu memiliki korelasi terhadap kecenderungan keluar dari perusahaan.
+
+Secara keseluruhan, dashboard ini menjadi alat bantu strategis bagi manajemen dan HR dalam memahami faktor-faktor utama yang memengaruhi attrition, serta mendukung pengambilan keputusan berbasis data untuk meningkatkan retensi dan efisiensi organisasi.
+
+## ✅ Conclusion
+Berdasarkan analisis data historis karyawan di perusahaan Jaya Jaya Maju, ditemukan beberapa faktor utama yang berkontribusi terhadap tingginya tingkat attrition (keluarnya karyawan):
+
+1. Jam kerja lembur (OverTime) adalah faktor paling signifikan yang memengaruhi keputusan karyawan untuk keluar. Karyawan yang sering lembur menunjukkan kemungkinan lebih tinggi untuk resign.
+
+2. Jarak tempat tinggal (DistanceFromHome) juga menunjukkan hubungan positif terhadap attrition. Semakin jauh jarak rumah ke kantor, semakin besar kemungkinan karyawan untuk keluar.
+
+3. Masa kerja (YearsAtCompany) memperlihatkan bahwa karyawan baru atau dengan masa kerja pendek lebih rentan terhadap attrition.
+
+4. Terdapat perbedaan attrition berdasarkan departemen, yang mengindikasikan bahwa beban kerja atau kepuasan kerja bisa berbeda-beda antar divisi.
+
+5. Model machine learning yang telah dibangun menunjukkan bahwa data historis karyawan dapat dimanfaatkan untuk memprediksi kemungkinan attrition secara cukup akurat, yang bisa menjadi dasar strategi retensi karyawan ke depan.
+
+## 💡 Rekomendasi Action Items
+1. **Tinjau dan atur ulang sistem kerja lembur.**
+
+   Karyawan yang sering lembur memiliki risiko tinggi untuk keluar. Pertimbangkan memberikan kompensasi yang sesuai, mengatur beban kerja, atau menerapkan kebijakan batas lembur.
+
+2. **Buat program onboarding dan mentorship untuk karyawan baru.**
+
+   Karena karyawan dengan masa kerja singkat lebih sering keluar, penting untuk memberikan dukungan pada fase awal masa kerja mereka.
+
+3. **Evaluasi ulang fleksibilitas lokasi kerja.**
+
+    Bagi karyawan dengan jarak tempat tinggal jauh, perusahaan bisa mempertimbangkan opsi kerja hybrid atau fleksibel agar meningkatkan kenyamanan dan produktivitas.
+
+4. **Perkuat manajemen SDM di departemen dengan attrition tinggi.**
+
+    Lakukan survei internal untuk memahami kepuasan kerja antar divisi, terutama pada departemen dengan tingkat attrition yang tinggi.
+
+5. **Manfaatkan sistem prediktif untuk mengidentifikasi karyawan berisiko tinggi.**
+
+    Gunakan model prediktif secara reguler untuk mendeteksi karyawan dengan potensi resign tinggi dan ambil tindakan preventif lebih dini.
