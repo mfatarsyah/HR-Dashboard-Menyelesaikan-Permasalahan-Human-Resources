@@ -44,6 +44,11 @@ Ukuran: 1.470 entri dan 35 fitur
 
 - Tools: [Google Colab](https://colab.research.google.com)
 
+- Setup conda environment:
+```
+  conda create --name proyek-human-resources python==3.9.15
+```
+
 - Install requirements:
   
 ```
@@ -54,6 +59,15 @@ pip install -r requirements.txt
 ```
 !pip install pandas matplotlib seaborn scikit-learn
 ```
+
+## Menjalankan file predict.py
+  1. Buka Google Colab
+  2. Jalankan code ```pip install -r requirements.txt ```
+  3. Buka file predict.py
+  4. Pastikan model ```attrition_model.pkl```
+  5. Jalankan file predict.py
+  6. Tunggu hasil output
+  7. Selesai
 
 ## Business Dashboard
 
