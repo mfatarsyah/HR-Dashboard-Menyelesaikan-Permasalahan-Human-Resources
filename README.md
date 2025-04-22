@@ -33,18 +33,27 @@ Berikut adalah beberapa permasalahan bisnis utama yang ingin diselesaikan:
 ## 📦 Persiapan
 ### Sumber Data
 
-Dataset: employee_data.csv
+Dataset: [Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
 
 Format data : CSV
 
 Ukuran: 1.470 entri dan 35 fitur
 
 ### Setup Environment:
-Bahasa: Python
+- Bahasa: Python
 
-Tools:Google Colab
+- Tools: [Google Colab](https://colab.research.google.com)
 
-Library utama: `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
+- Install requirements:
+  
+```
+pip install -r requirements.txt
+```
+- Install Library : 
+
+```
+!pip install pandas matplotlib seaborn scikit-learn
+```
 
 ## Business Dashboard
 
